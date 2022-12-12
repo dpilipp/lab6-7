@@ -1,0 +1,21 @@
+{%extends 'template.html' %}
+
+{% block title %}Кодило{% endblock %}
+
+{% block body %}
+<div class="px-4 py-5 my-5 text-center">
+  <img class="d-block mx-auto mb-4" src="https://www.muraldecal.com/en/img/aspemoj44-png/folder/products-detalle-png/stickers-sad-face-crying.png" alt="" width="72" height="57">
+  <h2 class="display-6 fw-bold">Что-то пошло не так</h1>
+  <h1 class="display-5 fw-bold">Извините</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Попробуйте еще раз</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <form method="post">
+        <button type="submit" name = "button" value = "create_std" class="btn btn-primary btn-lg px-4 gap-3">Добавить студента</button>
+        <button type="submit" name = "button" value = "see_std" class="btn btn-outline-secondary btn-lg px-4">Посмотреть список</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
